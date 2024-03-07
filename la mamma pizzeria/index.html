@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Pizzeria La Mamma</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 id="title">Vos pizzas préférées et vos suggestions</h1>
+        <p id="description">Aidez-nous à nous améliorer !</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">Votre nom :<input id="name" type="text" placeholder="Votre nom" required></label>
+                <label id="email-label">Votre adresse e-mail :<input id="email" type="email" placeholder="Votre adresse email" required></label>
+                <label id="number-label">Votre âge :<input id="number" type="number" min="12" max="88" placeholder="Votre âge"></label>
+            </fieldset>
+
+            <fieldset>
+                <label for="dropdown">Quelle est votre pizza préférée ?
+                    <select id="dropdown">
+                        <option value="tomate">Garniture tomate</option>
+                        <option value="creme">Garniture crème fraîche</option>
+                        <option value="calzone">Calzone</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <p>Vos ingrédients préférés</p>
+                <label for="oignons">oignons<input type="checkbox" value="oignons"></label>
+                <label for="olives">olives<input type="checkbox" value="olives"></label>
+                <label for="poivrons">poivrons<input type="checkbox" value="poivrons"></label>
+                <label for="mozzarella">mozzarella<input type="checkbox" value="mozzarella"></label>
+                <label for="emmental">emmental<input type="checkbox" value="emmental"></label>
+                <label for="chevre">chèvre<input type="checkbox" value="checkbox"></label>
+                <label for="jambon">jambon<input type="checkbox" value="jambon"></label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Comment avez-vous entendu parler de nous ?</legend>
+                    <label for="flyer"><input name="publicite" id="flyer" type="radio" value="flyer">Flyer</label>
+                    <label for="facebook"><input name="publicite" id="facebook" type="radio" value="facebook">Facebook</label>
+                    <label for="google"><input name="publicite" id="google" type="radio" value="google">Google</label>
+                    <label for="journal-local"><input name="publicite" id="journal-local" type="radio" value="journal-local">Journal local</label>
+            </fieldset>
+            <fieldset>
+                <label for="suggestions">Vos commentaires et suggestions : on vous écoute !
+                    <textarea id="suggestions" rows="5" cols="30"></textarea>
+                </label>
+            </fieldset>
+
+            <input type="submit" value="submit" id="submit">
+        </form>
+    </body>
+</html>
