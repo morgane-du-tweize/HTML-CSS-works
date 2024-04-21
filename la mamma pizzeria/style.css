@@ -40,3 +40,12 @@ input, textarea, select {
     cursor: pointer;
     width: 60%;
 }
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.spacing {
+    margin: 30px;
+}
