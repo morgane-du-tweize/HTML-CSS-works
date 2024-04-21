@@ -1,0 +1,47 @@
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4rem;
+    background-color: #e6f2ff;
+    margin: auto;
+}
+
+
+#top {
+    margin: 50px;
+}
+
+#image  {
+    display: block;
+    height: 600px;
+    /* img should be centered with parent */
+}
+
+
+#img-div {
+    margin: 40px;
+    
+}
+
+#tribute-info {
+    margin: 40px;
+    width: 60%;
+}
+
+#img-caption {
+    padding: 1.5em;
+}
+
+#title {
+    font-size: 3rem;
+}
+
+/*
+ espacer entre eux les paragraphes ainsi que h2
+*/
+h2, p {
+    margin: 2em;
+}
