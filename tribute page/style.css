@@ -18,7 +18,6 @@ main {
     height: 600px;
 }
 
-
 #img-div {
     margin: 40px; 
 }
@@ -40,10 +39,50 @@ h2, p {
     margin: 2em;
 }
 
-@media (max-width: 1199px) {
+
+@media  (max-width: 800px) and (min-width: 401px){
+
+    main {
+        width: 100%;
+    }
 
     img {
         width: 100%;
         object-fit: contain;
+    }
+}
+
+
+@media (max-width: 400px) {
+
+    main {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+
+    #top {
+        margin: 0px;
+    }
+
+    #img-div {
+        margin: 0px; 
+    }
+
+    #tribute-info {
+        margin: 0px;
+        width: 100%;
+    }
+
+    #img-caption {
+        padding: 0px;
+    }
+
+    h2, p {
+        margin: 0px;
+        font-size: 1rem;
     }
 }
