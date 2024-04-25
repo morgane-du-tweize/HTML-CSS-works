@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 0.8;
+    line-height: 1.5;
+}
+
+* {
+    margin: 20px;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+code {
+    background-color: #f2f2f2;
+}
+
+.nav-link {
+    width: 300px;
+    position: sticky;
+}
+
+#navbar {
+    position: fixed;
+    background-color: #ffffe6;
+}
+
+#navbar li {
+    left: 0;
+    list-style-type: none;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    width: 70%;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        position: static;
+    }
+
+    #main-doc {
+        position: static;
+    }
+}
