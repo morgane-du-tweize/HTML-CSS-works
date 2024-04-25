@@ -49,3 +49,32 @@ input, textarea, select {
 .spacing {
     margin: 30px;
 }
+
+
+@media (max-width: 1200px) and (min-width: 401px)    {
+    #survey-form {
+        width: 100%;
+    }
+
+    .line {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+    @media (max-width: 400px) {
+        form {
+            width: 100%;
+        }
+    
+        label, input, textarea, select, submit {
+            margin: auto;
+            width: 100%;
+        }
+    
+        .line {
+            flex-direction: column;
+        }
+
+
+}

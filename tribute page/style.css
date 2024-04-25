@@ -9,7 +9,6 @@ main {
     margin: auto;
 }
 
-
 #top {
     margin: 50px;
 }
@@ -17,13 +16,11 @@ main {
 #image  {
     display: block;
     height: 600px;
-    /* img should be centered with parent */
 }
 
 
 #img-div {
-    margin: 40px;
-    
+    margin: 40px; 
 }
 
 #tribute-info {
@@ -39,9 +36,14 @@ main {
     font-size: 3rem;
 }
 
-/*
- espacer entre eux les paragraphes ainsi que h2
-*/
 h2, p {
     margin: 2em;
+}
+
+@media (max-width: 1199px) {
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
 }
