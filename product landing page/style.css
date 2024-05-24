@@ -124,9 +124,22 @@ a:link, a:visited, a:hover, a:active {
 }
 
 #footer {
-    
     background-color: #d1d1e0;
-    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer > p {
+    text-align: center;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#footer > p, #footer-links {
+    padding: 20px;
 }
 
 @media screen and (max-width: 600px) {
