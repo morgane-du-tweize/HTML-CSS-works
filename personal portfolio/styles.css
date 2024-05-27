@@ -1,0 +1,155 @@
+body {
+    font-family: sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+}
+
+#navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    height: 140px;
+    width: calc(100vw - 15px);
+    background-color: #f3e6ff;
+    z-index: 1;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    margin: 15px;
+}
+
+#reste {
+    position: absolute;
+    top: 141px;
+    background-color: blueviolet;
+}
+
+h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+    position: relative;
+    top: 45%;
+    left: 25%;
+}
+
+#welcome-section {
+    top: 0;
+    background-color: blueviolet;
+    width: 100vw;
+    height: 100vh;
+}
+
+#projects {
+    background-color: #ffcc99;
+    padding-bottom: 100px;
+    bottom: 0px;
+}
+
+#projects > h2 {
+    padding: 75px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#grid-elements {
+    display: grid;
+    gap: 100px;
+    grid-template-columns: auto auto auto;
+    position: relative;
+    left: 100px;
+}
+
+bottom-links > a:link, bottom-links > a:visited, bottom-links > a:hover, bottom-links > a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.project-tile {
+    height: 400px;
+    width: 400px;
+}
+
+.tile-up {
+    position: relative;
+    top: 0;
+    object-fit: cover;
+}
+
+img {
+    height: 350px;
+    width: 400px;
+}
+
+.tile-bottom {
+    height: 50px;
+    background-color: #000;
+    position: relatve;
+    display: flex;
+    bottom: 0;
+    align-items: center;
+    font-weight: 3rem;
+    justify-content: center;
+}
+
+.tile-bottom > a {
+    color: white;
+}
+
+
+#profile{
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000066;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#profile > h2 {
+    font-size: 3.5rem;
+}
+
+#bottom-links {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.bottom-profile, .bottom-profile > a {
+    margin: 25px;
+    font-size: 2rem;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #grid-elements {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #grid-elements {
+        grid-template-columns: auto;
+    }
+}
