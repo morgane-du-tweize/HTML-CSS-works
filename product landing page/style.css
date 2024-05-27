@@ -112,6 +112,10 @@ video {
     text-align: center;
 }
 
+.model > p {
+    margin: 25px;
+}
+
 h3 {
     top: 0;
     padding: 15px;
