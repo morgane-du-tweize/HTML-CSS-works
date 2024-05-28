@@ -8,7 +8,7 @@ a:link, a:visited, a:hover, a:active {
 }
 
 header {
-    width: 100%;
+    width: 100vw;
 }
 
 #navbar {
@@ -16,9 +16,10 @@ header {
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    top: 0px;
+    top: 0;
     height: 140px;
-    width: calc(100vw - 15px);
+    /*width: calc(100vw - 15px);*/
+    width: 100%;
     background-color: #f3e6ff;
     z-index: 1;
 }
@@ -32,6 +33,7 @@ header {
     position: absolute;
     top: 141px;
     background-color: blueviolet;
+    width: 100vw;
 }
 
 h1 {
@@ -47,7 +49,7 @@ h1 {
 #welcome-section {
     top: 0;
     background-color: blueviolet;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
